@@ -1,15 +1,18 @@
-# Learn Front End 2
+# Learn Front End 4
 
-## JSX
-JSX = JavaScript + HTML
-Makes UI easier to write and read
+## Page Routing
+I learned how to use React Router to navigate between different pages in a React application.
 
-## Components
-A component is just a JavaScript function that returns JSX.
+## API
+I learned how to fetch movie data from an external API and display it in my application.
 
-## Props
-Props means properties.
-Props allow us to pass data into components.
+## CSS
+I learned how to organize and apply CSS files to style React components and pages.
 
-## Conditional Rendering
-Conditional rendering shows different UI based on conditions.
+## useEffect
+I learned how to use useEffect to run code when a component loads.
+
+```jsx
+useEffect(() => {
+    loadPopularMovies();
+}, []);
