@@ -1,18 +1,13 @@
-# Learn Front End 4
+# Learn Front End 5
 
-## Page Routing
-I learned how to use React Router to navigate between different pages in a React application.
+## Context API
+I learned that Context allows state to be globally available to components inside the provider.
 
-## API
-I learned how to fetch movie data from an external API and display it in my application.
+## Children Prop
+I learned that children is a special React prop that represents everything inside a component.
 
-## CSS
-I learned how to organize and apply CSS files to style React components and pages.
+## Local Storage
+I learned how to use localStorage to save data directly in the browser.
 
-## useEffect
-I learned how to use useEffect to run code when a component loads.
-
-```jsx
-useEffect(() => {
-    loadPopularMovies();
-}, []);
+## Persistence
+I learned how to load saved data from localStorage when the application starts.

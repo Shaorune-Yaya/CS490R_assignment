@@ -34,7 +34,7 @@ function Home() {
             setMovies(searchResult);
             setError(null);
         } catch (err) {
-            consle.log(err);
+            console.log(err);
             setError("Failed to search movies. Please try again later.");
         } finally {
             setLoading(false);
@@ -42,7 +42,7 @@ function Home() {
     }
 
     return  (
-    <div ClassName = "home ">
+    <div className = "home ">
         <form onSubmit = {handleSearch} className="search-form"> 
             <input 
             type="text" 
